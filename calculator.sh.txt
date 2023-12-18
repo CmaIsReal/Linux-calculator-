@@ -1,0 +1,20 @@
+sum=0
+I="y"
+echo "input number"
+read n1
+echo "input number "
+read n1
+echo "1. Add"
+echo "2. Subtract"
+echo "3. Multiply"
+echo "4. Divide"
+echo "enter selection"
+read ch
+1) sum= 'expr $n1 +$n2'
+echo "sum=" $sum;;
+2)sum='expr $n1 - $n2'
+echo "sub =" $sum;;
+3)sum='expr $n1  * $n2'
+echo "mul ="  $sum;;
+4)sum = 'expr $n1 / $n2
+echo "div = "$sum;;
